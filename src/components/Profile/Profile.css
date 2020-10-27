@@ -1,0 +1,34 @@
+.profile {
+  padding-top: 10px;
+  width: calc((100% - 30px * 2) / 3);
+  border: 1px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.avatar {
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 50%;
+}
+.description {
+  text-align: center;
+}
+.stats {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  background-color: darkgray;
+}
+.quantity {
+  display: block;
+}
+.statsItem {
+  text-align: center;
+  border-top: 1px solid black;
+  width: calc((100%) / 3);
+  padding: 5px;
+}
+.statsItem:not(:last-child) {
+  border-right: 1px solid black;
+}
