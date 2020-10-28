@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Profile.css"
 import StatsItem from './statsItem/StatsItem';
+import PropTypes from "prop-types"
 
 const Profile = ({ user }) => {
     return (
@@ -23,4 +24,8 @@ const Profile = ({ user }) => {
 };
 
 export default Profile;
+
+Profile.propType = {
+    user: PropTypes.object
+}
 

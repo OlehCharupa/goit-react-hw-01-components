@@ -1,0 +1,12 @@
+.friend-list {
+  list-style: none;
+}
+.itemFriend {
+  width: 300px;
+  background-color: cornsilk;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+}

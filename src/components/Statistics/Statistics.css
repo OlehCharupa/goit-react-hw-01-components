@@ -1,0 +1,42 @@
+.statistics {
+  margin-top: 50px;
+  outline: 1px solid black;
+  width: 300px;
+  text-align: center;
+}
+.title {
+  margin: 0;
+  padding: 20px;
+}
+.stat-list {
+  outline: 1px solid black;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.item {
+  padding: 5px;
+  width: 25%;
+  color: #fff;
+}
+.item:nth-child(1) {
+  background: chartreuse;
+}
+.item:nth-child(2) {
+  background: rgb(30, 165, 158);
+}
+.item:nth-child(3) {
+  background: rgb(146, 9, 73);
+}
+.item:nth-child(4) {
+  background: rgb(216, 45, 14);
+}
+.item:nth-child(5) {
+  background: rgb(14, 85, 216);
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+}

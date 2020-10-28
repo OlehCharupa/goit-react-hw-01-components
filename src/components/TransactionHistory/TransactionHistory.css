@@ -1,0 +1,9 @@
+th {
+  width: 100px;
+  background-color: darkseagreen;
+  border: 1px solid black;
+}
+td {
+  width: 100px;
+  border: 1px solid black;
+}
